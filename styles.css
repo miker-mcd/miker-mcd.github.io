@@ -19,7 +19,15 @@ nav {
 }
 
 #mainlinks a {
-  display: block;
-  vertical-align: middle;
+  display: inline-block;
+  min-width: 25%;
+  /*vertical-align: middle;*/
   text-align: center;
+  color: white;
+  background-color: #38b036;
+  text-decoration: none;
+}
+
+#mainlinks a:visited {
+  color: yellow;
 }
