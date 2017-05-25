@@ -12,6 +12,10 @@ body {
   vertical-align: top;
 }
 
+.important {
+  font-family: 'Poppins', sans-serif;
+}
+
 nav {
   background: url(congruent_pentagon/congruent_pentagon.png);
   width: 100%;
