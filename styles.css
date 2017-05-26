@@ -1,8 +1,22 @@
-* {
+/** {
   outline: 1px solid red;
 }
 body {
   width: 90%;
+}*/
+
+body {
+  margin: 30px auto;
+  padding: 20px 30px;
+}
+
+section p {
+  font-family: Helvetica;
+}
+
+h1#main-title {
+  font-family: "Anton", sans-serif;
+  font-size: 36px;
 }
 
 .subject {
