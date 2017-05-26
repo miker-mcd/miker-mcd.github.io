@@ -1,15 +1,19 @@
 /** {
   outline: 1px solid red;
-}
-body {
-  width: 90%;
 }*/
 
 body {
+  max-width: 768px;
   margin: 0px auto 20px;
   padding: 20px 30px;
+  /*display: inline-block;*/
+  /*vertical-align: middle;*/
+  text-align: center;
 }
 
+img {
+  width: 100%;
+}
 section p {
   font-family: Helvetica;
 }
@@ -20,21 +24,22 @@ h1#main-title {
   margin-top: 75px;
 }
 
-img {
-  width: 100%;
+p.resource a {
+  font-style: italic;
+  text-decoration: none;
 }
 
 .subject {
   display: inline-block;
   max-width: 80%;
-  border: 1px solid rgb(90, 204, 88);
+  border: 1px solid rgb(179, 255, 179);
   border-radius: 5px;
   margin: 10px;
   padding: 0px 15px;
   vertical-align: top;
 }
 
-.important {
+h1, h2, h3, h4, h5, h6.important {
   font-family: 'Poppins', sans-serif;
 }
 
@@ -50,12 +55,14 @@ nav {
 
 #mainlinks a {
   display: inline-block;
-  min-width: 25%;
   text-align: center;
-  color: white;
-  background-color: #38b036;
+  color: black;
+  font-family: Helvetica;
+  background-color: LightSeaGreen;
+  border-radius: 5px;
   text-decoration: none;
-  margin-top: 50px;
+  margin: 25px 5px;
+  padding: 10px;
 }
 
 #mainlinks a:visited {
@@ -68,14 +75,27 @@ footer {
   width: 100%;
 }
 
-@media screen and (min-width: 768px) {
+.subject table {
+  width: 350px;
+  font-family: Helvetica;
+}
+
+tr.even {
+  background-color: #f0fff0;
+}
+
+ul.options {
+  list-style: circle;
+  width: 300px
+}
+
+@media screen and (min-width: 769px) {
   body {
-    display: inline-block;
-    vertical-align: middle;
-    text-align: center;
+    text-align: left;
+    font-weight: bold;
   }
 
-  /*img {
-    width: 100%;
-  }*/
+  img {
+    width: 50%;
+  }
 }
