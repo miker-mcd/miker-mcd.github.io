@@ -1,3 +1,6 @@
+* {
+  outline: 1px solid red;
+}
 body {
   width: 90%;
 }
@@ -20,18 +23,37 @@ nav {
   background: url(congruent_pentagon/congruent_pentagon.png);
   width: 100%;
   height: 75px;
+  text-align: left;
 }
 
 #mainlinks a {
   display: inline-block;
   min-width: 25%;
-  /*vertical-align: middle;*/
   text-align: center;
   color: white;
   background-color: #38b036;
   text-decoration: none;
+  margin-top: 50px;
 }
 
 #mainlinks a:visited {
   color: yellow;
+}
+
+footer {
+  text-align: center;
+  margin: 0px auto;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  img {
+    width: 100%;
+  }
 }
