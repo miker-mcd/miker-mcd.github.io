@@ -1,7 +1,3 @@
-/** {
-  outline: 1px solid red;
-}*/
-
 html {
   background: url(congruent_pentagon/congruent_pentagon.png);
 }
@@ -11,8 +7,6 @@ body {
   max-width: 768px;
   margin: 0px auto 20px;
   padding: 20px 30px;
-  /*display: inline-block;*/
-  /*vertical-align: middle;*/
   text-align: center;
 }
 
